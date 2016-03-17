@@ -46,11 +46,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		}
 	}
 	$max = 1;
-	foreach($list as $l){
+	$cat_id = 1;
+	foreach($list as $id => $l){
 		if($l>$max)
 			$max = $l;
+			$cat_id = $id;
 	}
 	
-	header("Location: table.php?cat_id=".$max);
+	header("Location: table.php?cat_id=".$id);
 }
 ?>
