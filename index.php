@@ -47,7 +47,7 @@
 						<section class="container-fluid well">
 							<h2>Welcome to MedCenter.</h2><br>
 							<h2>Please Register</h2>
-						
+								<a href = "register.php"><button class = "btn btn-primary" href = "register.php">Register.</button></a>
 							<center>
 							<a href="http://localhost:8000"><i class="fa fa-5x fa-user-md"></i></a>
 							</center>
@@ -88,6 +88,7 @@
 							<h2>Welcome to MedCenter.</h2>
 							<hr/>
 							<?php include 'patient.php'; ?>
+
 							</center>
 						</section>
 						
@@ -101,6 +102,7 @@
 
 
 		<script src="js/classie.js"></script>
+		<script src="js/reg.js"></script>
 		<script src="js/cbpSplitLayout.js"></script>
 		<script type="text/javascript">
 		function func1(){

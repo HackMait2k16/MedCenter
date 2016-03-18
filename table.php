@@ -44,7 +44,7 @@
 
 </head>
 
-	<body style = "background-image: url('http://www.joburgchiropractor.co.za/images/background.jpg');">
+	<body style = "background-image: url('http://www.joburgchiropractor.co.za/images/background.jpg');background-size: 100% 100%;">
 		<div class="container-fluid">
 			<div class="row-fluid  col-xs-12">
 				<h1><?php echo $cat_name; ?></h1>
@@ -62,7 +62,7 @@
 							<p><strong>Mobile </strong><?php echo $doctors[0][3]; ?></p>
 						</div>
 						<div class="pricing-table-signup-tiny">
-							<p><a href="#">Chat</a></p>
+							<p><a href="http://localhost:3000">Chat</a></p>
 						</div>
 					</div>
 				</div>
@@ -78,7 +78,7 @@
 							<p><strong>Mobile </strong><?php echo $doctors[1][3]; ?></p>
 						</div>
 						<div class="pricing-table-signup-small">
-							<p><a href="#">Chat</a></p>
+							<p><a href="http://localhost:3000">Chat</a></p>
 						</div>
 					</div>
 				</div>
@@ -95,7 +95,7 @@
 							<p><strong>Mobile </strong><?php echo $doctors[2][3]; ?></p>
 						</div>
 						<div class="pricing-table-signup-medium">
-							<p><a href="#">Chat</a></p>
+							<p><a href="http://localhost:3000">Chat</a></p>
 						</div>
 					</div>
 				</div>
@@ -103,15 +103,15 @@
 				<div class="col-xs-6">
 					<div class="span3 pro col-xs-12">
 						 <div class="pricing-table-header-pro">
-							<h3><?php echo $doctors[2][0]; ?></h3>
+							<h3><?php echo $doctors[3][0]; ?></h3>
 						</div>
 						<div class="pricing-table-features">
-							<p><strong>Description </strong><?php echo $doctors[2][2]; ?></p>
-							<p><strong>Location </strong><?php echo $doctors[2][1]; ?></p>
-							<p><strong>Mobile </strong><?php echo $doctors[2][3]; ?></p>
+							<p><strong>Description </strong><?php echo $doctors[3][2]; ?></p>
+							<p><strong>Location </strong><?php echo $doctors[3][1]; ?></p>
+							<p><strong>Mobile </strong><?php echo $doctors[3][3]; ?></p>
 						</div>
 						<div class="pricing-table-signup-pro">
-							<p><a href="#">Chat</a></p>
+							<p><a href="http://localhost:3000">Chat</a></p>
 						</div>
 					</div>
 				</div>	
